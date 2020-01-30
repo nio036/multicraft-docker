@@ -1,5 +1,6 @@
-## Single Multicraft container modified from LZStealth
-updated Clutch152 code to run on ubuntu server 18.4 LTS
+Single Multicraft container modified from LZStealth. updated Clutch152 code to run on ubuntu server 18.4 LTS
+
+## by nio036
 
 ## MINECRAFT VERSION 1.5.2 + Multicraft admin panal
 
