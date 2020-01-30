@@ -1,4 +1,4 @@
-Single Multicraft container  from LZStealth, modified Clutch152. I update the code to run on ubuntu server 18.4 LTS
+Single Multicraft container  from Clutch152. I update the code to run on ubuntu server 18.4 LTS
 
 ## by nio036
 
