@@ -1,23 +1,23 @@
 # Single Multicraft container modified from nio036
 
 ## build image
-docker build -t multicraft .
+`docker build -t multicraft .`
  
 ## run image
-docker run -d -it -p 80:80 -p 25565:25565 --name multicraft  -v MulticraftData:/mc multicraft
+`docker run -d -it -p 80:80 -p 25565:25565 --name multicraft  -v MulticraftData:/mc multicraft`
 
 
   
 ### enter bash
-docker exec -it multicraft /bin/bash
+`docker exec -it multicraft /bin/bash`
 
   
 ### Set the same pass you enter before
-nano /mc/panel/protected/config/config.php
-  3ed line 'daemon_password' => 'qwerty123',
+`nano /mc/panel/protected/config/config.php
+  3ed line 'daemon_password' => 'qwerty123',`
 
 #### Database 2: DAEMON database location
-/mc/multicraft/multicraft/data/data.db
+`/mc/multicraft/multicraft/data/data.db`
 
 
 
