@@ -13,8 +13,8 @@
 
   
 ### Set the same pass you enter before
-`nano /mc/panel/protected/config/config.php
-  3ed line 'daemon_password' => 'qwerty123',`
+`nano /mc/panel/protected/config/config.php`
+  (3ed line 'daemon_password' => 'qwerty123')
 
 #### Database 2: DAEMON database location
 `/mc/multicraft/multicraft/data/data.db`
