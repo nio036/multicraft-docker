@@ -1,4 +1,7 @@
-# Single Multicraft container modified from nio036
+## Single Multicraft container modified from LZStealth
+updated Clutch152 code to run on ubentu server 18.4 LTS
+
+## MINECRAFT VERSION 1.5.2
 
 ## build image
 `docker build -t multicraft .`
