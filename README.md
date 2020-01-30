@@ -1,14 +1,14 @@
-#Single Multicraft container modified from nio036
+# Single Multicraft container modified from nio036
 
-##build image
+## build image
 docker build -t multicraft .
  
-##run image
+## run image
 docker run -d -it -p 80:80 -p 25565:25565 --name multicraft  -v MulticraftData:/mc multicraft
 
 
   
-###enter bash
+### enter bash
 docker exec -it multicraft /bin/bash
 
   
