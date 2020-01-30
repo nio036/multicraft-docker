@@ -1,12 +1,18 @@
-Single Multicraft container modified from LZStealth.
+Single Multicraft container modified from nio036
 
-docker build -t multicraft .
+'docker build -t multicraft .'
  
-docker run -d -it -p 80:80 -p 25565:25565 --name devtest  -v MulticraftData:/mc multicraft
+'docker run -d -it -p 80:80 -p 25565:25565 --name multicraft-img  -v MulticraftData:/mc '
 
+
+deamon database derectory 
+ '/mc/multicraft/multicraft/data/data.db'
+  
+ edied to set the same pass on  
+ 'nano /mc/panel/protected/config/config.php'
   
 
-enter bash
+##enter bash
 docker exec -it multicraft /bin/bash
 
 Map container path to "/mc"

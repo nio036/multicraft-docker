@@ -1,11 +1,11 @@
 FROM openjdk:8-jre
 
-LABEL maintainer="me@lzstealth.com" \
+LABEL maintainer="nio036@gmail.com" \
           description="Dockerised Multicraft panel"
 
 RUN apt-get update && apt-get upgrade  -y && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
-        lib32gcc1 lib32stdc++6 wget binutils apache2 openjdk-8-jre \
+        lib32gcc1 lib32stdc++6 wget binutils apache2 openjdk-8-jre nano \
         php7.0 php7.0-cli libapache2-mod-php7.0 sqlite3 php7.0-sqlite php7.0-mysql php7.0-gd \
         vim zip unzip imagemagick lsof && apt-get clean && \
         a2enmod php7.0
